@@ -1,0 +1,312 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+
+.container{
+    margin: auto;
+    max-width: 1000px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+body{
+    font-family: 'Raleway';
+    line-height: 1.7em;
+
+}
+/*nav bar*/
+.nav-bar{
+    background-color: #333;
+    color:white;
+    overflow:auto;
+}
+
+.nav-bar .logo {
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-left: 20px;
+    font-size: 25px;
+}
+.nav-bar ul li a{
+    color:white;
+    
+}
+.nav-bar ul {
+    list-style: none;
+    float: right;
+}
+
+.nav-bar ul li {
+    float:left;
+    
+    }
+
+    .nav-bar ul li a {
+        padding: 20px;
+        font-size: 15px;
+        display:flex;
+        text-align: center;
+        justify-content: center;
+        text-decoration: none;
+    }
+
+.nav-bar ul li a:hover{
+    background-color: gray;
+    color: #f7c08a;
+}
+.nav-bar ul li a.current {
+    background-color: gray;
+    color: #f7c08a;
+}
+
+/*enjoy your stay*/
+.picture{
+    background: url('./IMG/showcase.jpg') no-repeat center center/cover ;
+    height:690px;
+}
+.text{
+   padding-top: 200px;
+    text-align: center;
+    color: white;
+
+}
+.color{
+    color: #f7c08a;
+    
+}
+.text h1{
+   margin-bottom: 30px;
+    font-size: 50px;
+}
+.text p{
+    margin-bottom: 40px;
+    
+}
+.btn{
+    background-color:#333;
+    color:white;
+    padding:15px;
+    border-radius:5px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.btn:hover{
+    background-color:#f7c08a;
+    color:#333;
+}
+
+/*history*/
+
+
+.history{
+    height: 350px;
+}
+.history-img {
+    min-height: 100%;
+    background: url('./IMG/photo-1.jpg');
+    float:left;
+    width:50%;
+    
+}
+
+.history-text{
+    min-height: 100%;
+    float:right;
+    width:50%;
+    background-color:#333;
+    color:white;
+    text-align: center;
+    justify-content: center;
+
+}
+.button{
+    background-color:white;
+    color:#333;
+    padding:15px;
+    border-radius:5px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-top: 10PX;
+}
+
+.history-text h2{
+    padding-top: 80px;
+    margin-bottom: 15px;
+}
+.history-text p{
+ padding-bottom: 30px;
+}
+
+.button:hover{
+    background-color:#f7c08a;
+    color:#333;
+}
+
+
+/*cards*/
+.caard{
+    display:flex;
+    flex-direction: row;
+    
+}
+.sub-card{
+    display:flex;
+    flex-direction: column;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.icon{
+  font-size: 80px;
+    padding: 20px;
+}
+.sub-card h2{
+    margin-bottom: 10px;
+}
+
+
+
+.bg-light {
+    background: #e4e4e4f4;
+    color: #333;
+}
+
+.bg-primary {
+    background: #f7c08a;
+    color: #333;
+}
+
+/*footer*/
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.bg-dark {
+    background: #444;
+    color: white;
+}
+
+
+
+/*CONTACT PAGE*/
+
+.contact-div h1{
+font-size: 40px;
+font-weight: 500;
+margin: 20px;
+}
+
+.contact-div p{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.contact-form{
+    display:flex;
+    flex-direction: column;
+}
+
+.contact-form label{
+    padding: 5px;
+    font-weight:300 ;
+}
+
+.contact-form input{
+    padding:10px;
+   
+}
+
+.contact-form button{
+    width:10%;
+    margin: 10px;
+    border: none;
+}
+
+.cards{
+    display: flex;
+    background: #333;
+    color: white;
+    text-align: center;
+   justify-content: center;
+}
+
+.card{
+    display:flex;
+    flex-direction:column ;
+    padding: 60px;
+}
+
+.card h2{
+  margin: 15px;
+}
+
+.card p{
+    margin: 15px;
+  }
+
+  .card i{
+    font-size: 40px;
+  }
+
+  /*about page*/
+  .about-info{
+    padding: 30px 0px;
+    background-color: #e4e4e4f4;;
+  }
+
+  .info-text{
+    float:left;
+    width:50%;
+    min-height: 100%;
+  }
+
+  .info-text h1{
+     margin:10px 0px 20px 0px;
+     font-size:37px ;
+  }
+  .info-img{
+    float:right;
+    width:50%;
+    min-height: 100%;
+  }
+
+  .info-img img{
+    width:70%;
+    display:block;
+    border-radius: 50%;
+    margin:auto;
+  }
+
+  .img{
+    background: url('./IMG/test-bg.jpg') no-repeat center center/cover;
+    padding: 50px;
+  }
+
+  .format{
+    padding:40px;
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+  }
+.box{
+    padding: 40px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    opacity: 0.9;
+}
+
+.box img{
+    float:left;
+    width:100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
